@@ -1,0 +1,36 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Vector database
+chroma_db/
+
+# SQLite databases and temporary files
+*.sqlite*
+*.sqlite3*
+*.db*
+
+# IDE files
+.vscode/
+.idea/
+
+# Build files
+build/
+dist/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Test cache
+.pytest_cache/
